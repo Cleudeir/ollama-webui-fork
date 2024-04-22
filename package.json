@@ -3,9 +3,9 @@
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
-		"dev": "vite dev --host --port 3001",
+		"dev": "vite dev --host --port 3000",
 		"build": "vite build",
-		"preview": "vite preview --host --port 3000",
+		"start": "vite preview --host --port 3336",
 		"fmt": "npm run prettier:svelte && npm run prettier",
 		"prettier:svelte": "npx -p prettier@2 -- prettier --plugin-search-dir . --write .",
 		"prettier": "npx -p prettier@2 -- prettier --write '**/*.{js,css,md,html,json}'"
