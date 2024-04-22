@@ -10,7 +10,7 @@ services:
       - OLLAMA_HOST=0.0.0.0
       - OLLAMA_ORIGINS=*
     volumes:
-      - /DATA/AppData/ollama:/root/.ollama
+      - ollama:/root/.ollama
     restart: unless-stopped    
 
 volumes:
